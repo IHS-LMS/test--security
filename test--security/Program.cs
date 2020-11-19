@@ -11,7 +11,7 @@ namespace test__security
             AppDomain.CurrentDomain.SetPrincipalPolicy(PrincipalPolicy.WindowsPrincipal);
             PrincipalPermission principalPerm = new PrincipalPermission(null, "Administrators");
             principalPerm.Demand();
-            Console.WriteLine("Demand succeeded.");
+            Console.WriteLine("Demand succeeded..");
             Console.Read();
         }
     }
